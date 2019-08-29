@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace WeatherApp
 {
-    [Activity(Label = "@string/app_name")]
+    [Activity(Label = "My weather application")]
     public class FiveDayActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

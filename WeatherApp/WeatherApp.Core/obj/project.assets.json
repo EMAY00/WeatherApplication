@@ -3086,11 +3086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
+      "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
       "projectName": "WeatherApp.Core",
-      "projectPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
+      "projectPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
       "packagesPath": "C:\\Users\\May\\.nuget\\packages\\",
-      "outputPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\obj\\",
+      "outputPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

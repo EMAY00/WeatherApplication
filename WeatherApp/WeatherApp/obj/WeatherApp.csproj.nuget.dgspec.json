@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
+    "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
   },
   "projects": {
-    "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj": {
+    "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
+        "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
         "projectName": "WeatherApp.Core",
-        "projectPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
+        "projectPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
         "packagesPath": "C:\\Users\\May\\.nuget\\packages\\",
-        "outputPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\obj\\",
+        "outputPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -57,14 +57,14 @@
         }
       }
     },
-    "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+    "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "packagesPath": "C:\\Users\\May\\.nuget\\packages\\",
-        "outputPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp\\obj\\",
+        "outputPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -86,8 +86,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj": {
-                "projectPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj"
+              "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj": {
+                "projectPath": "D:\\Elenn\\VStudio\\WeatherApplication\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj"
               }
             }
           }

@@ -13,7 +13,7 @@ using System.Collections.Generic;
 
 namespace WeatherApp
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "MY APPLICATION", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         TextView textView1;

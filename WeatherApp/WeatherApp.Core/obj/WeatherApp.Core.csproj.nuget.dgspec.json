@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj": {}
+  },
+  "projects": {
+    "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
+        "projectName": "WeatherApp.Core",
+        "projectPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\WeatherApp.Core.csproj",
+        "packagesPath": "C:\\Users\\May\\.nuget\\packages\\",
+        "outputPath": "D:\\Elenn\\VStudio\\WeatherAPP\\WeatherApp\\WeatherApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\May\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://markussoftware.pkgs.visualstudio.com/_packaging/MCSNugetPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.2": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

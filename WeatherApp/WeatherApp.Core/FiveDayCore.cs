@@ -9,7 +9,7 @@ namespace WeatherApp.Core
         {
             List<Weather> weathers = new List<Weather>();
             string queryString = "http://api.openweathermap.org/data/2.5/forecast?q=" + City + "&units=metric&appid=ef0b32214b6a100ab1811e267f5e7feb";
-                                                                                                                                                                            dynamic results = await DataService.GetDataFromService(queryString).ConfigureAwait(false);
+            dynamic results = await DataService.GetDataFromService(queryString).ConfigureAwait(false);
 
             var weather0 = new Weather();
             weather0.Temperature = (string)results["list"][1]["main"]["temp"] + " C  ";

@@ -12,17 +12,25 @@ namespace WeatherApp.Core
     {
         public static async Task<dynamic> GetDataFromService(string queryString)
         {
-            HttpClient client = new HttpClient();
-            var response = await client.GetAsync(queryString);
-            
-            dynamic data = null;
-            if(response != null)
+          
+                HttpClient client = new HttpClient();
+                var response = await client.GetAsync(queryString);
+
+                dynamic data = null;
+            if (response != null)
             {
-                string json = response.Content.ReadAsStringAsync().Result;
-                data = JsonConvert.DeserializeObject(json);
+                    string json = response.Content.ReadAsStringAsync().Result;
+                    data = JsonConvert.DeserializeObject(json);
             }
 
-            return data;
+
+            if (response == null)
+            {
+                return true;
+            }
+                
+          
+            return queryString;
         }
     }
 }

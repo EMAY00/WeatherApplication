@@ -14,9 +14,13 @@ namespace WeatherApp
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
             SetContentView(Resource.Layout.layout1);
+
+
             var list = FindViewById<ListView>(Resource.Id.listView1);
             List<Core.Weather> weathers = Core.Weathers.weathers;
+
             list.Adapter = new CustomAdapter(this, weathers);
 
         }

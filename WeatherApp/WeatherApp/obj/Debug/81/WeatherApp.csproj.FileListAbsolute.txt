@@ -464,3 +464,4 @@ D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp\obj\Debug\81\stamp\_Co
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp\obj\Debug\81\android\assets\Mono.Android.pdb

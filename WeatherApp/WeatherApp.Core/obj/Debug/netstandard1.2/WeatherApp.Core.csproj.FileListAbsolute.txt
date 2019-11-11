@@ -10,8 +10,6 @@ D:\Elenn\VStudio\WeatherAPP\WeatherApp\WeatherApp.Core\obj\Debug\netstandard1.2\
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.deps.json
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.dll
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.pdb
-D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.csprojAssemblyReference.cache
-D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.csproj.CoreCompileInputs.cache
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfoInputs.cache
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
 D:\Elenn\VStudio\WeatherApplication\WeatherApp\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll

@@ -19,11 +19,15 @@ namespace WeatherApp.Core
                 dynamic data = null;
             if (response != null)
             {
+                    
+
                     string json = response.Content.ReadAsStringAsync().Result;
                     data = JsonConvert.DeserializeObject(json);
+
+               
             }
-
-
+            
+           
             if (response == null)
             {
                 return true;

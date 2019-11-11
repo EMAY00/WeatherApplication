@@ -20,7 +20,7 @@ namespace WeatherApp
         TextView textView2;
         TextView textView3;
         SearchView searchView;
-        Button button;
+        Button button1;
         TextView textAvg;
         ImageView weatherIcon;
         Button button2;
@@ -32,7 +32,7 @@ namespace WeatherApp
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            button = FindViewById<Button>(Resource.Id.button1);
+            button1 = FindViewById<Button>(Resource.Id.button1);
             button2 = FindViewById<Button>(Resource.Id.button2);
             textView1 = FindViewById<TextView>(Resource.Id.textView1);
             textView2= FindViewById<TextView>(Resource.Id.textView2);
@@ -42,12 +42,15 @@ namespace WeatherApp
             weatherIcon = FindViewById<ImageView>(Resource.Id.weatherIcon);
 
 
-            button.Click += Button_Click;
+            button1.Click += Button_Click;
             button2.Click += button2_ClickAsync;
+            
         }
 
         private async void Button_Click(object sender, System.EventArgs e)
         {
+            button1.Text = "Loading...";
+
             var weather = await Core.Core.GetWeather(searchView.Query);
             textView1.Text = weather.Temperature;
             textView2.Text = weather.Pressure;
@@ -57,6 +60,7 @@ namespace WeatherApp
         }
         private async void button2_ClickAsync(object sender, EventArgs e)
         {
+            button2.Text = "Loading...";
             await GetForecast();
             Intent intent = new Intent(this, typeof(FiveDayActivity));
             StartActivity(intent);
